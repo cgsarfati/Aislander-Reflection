@@ -18,6 +18,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aislander is a single-page Flask app where users can search for recipes, and append those ingredients into grocery lists, with one click of a button. It is built on Python on the back-end and Javascript (specifically, jQuery) on the front-end with a PostgreSQL database. The grocery list is organized by aisle categories, saving users from the scavenger hunt in the store. As more recipes are added, ingredients either append to existing aisles or create a new aisle in the process.
 
+![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddAnotherRecipe.gif "Add another recipe")
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A layer of complexity is I was intent on making this a single-page app. This required using data attributes in HTML5 to strategically store data in the DOM for my AJAX calls. Often, I would place primary keys inside HTML tags in order to get streamlined access to specific data in the database. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additionally, working with the Spoonacular API to obtain recipe data often led to multi-step parsing of the returned JSON via the scripting power of Python. For example, I combined two JSONs together and deconstructed extremely layered JSONs, all the while keeping up with writing beautiful, legible code. 
