@@ -1,4 +1,4 @@
-![Homepage](https://raw.githubusercontent.com/cgsarfati/Aislander-Reflection/img/homepage.png "Front page")
+![Homepage](https://raw.githubusercontent.com/cgsarfati/Aislander-Reflection/img/homepage.png)
 
 ## Table of Contents
 * [Motivation](#motivation)
