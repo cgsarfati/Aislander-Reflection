@@ -1,6 +1,6 @@
 # Aislander Reflection
 
-![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/homepage.png)
+![Picture](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/homepage.png)
 
 ## Table of Contents
 * [Motivation](#motivation)
@@ -14,11 +14,11 @@
 
 ## About Aislander
 
-![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddRecipe.gif "Add recipe")
+![Picture](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddRecipe.gif "Add recipe")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Aislander](https://github.com/cgsarfati/Aislander) is a single-page Flask app where users can search for recipes, and append those ingredients into grocery lists, with one click of a button. It is built on Python on the back-end and Javascript (specifically, jQuery) on the front-end with a PostgreSQL database. The grocery list is organized by aisle categories, saving users from the scavenger hunt in the store. As more recipes are added, ingredients either append to existing aisles or create a new aisle in the process.
 
-![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddAnotherRecipe.gif "Add another recipe")
+![Picture](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddAnotherRecipe.gif "Add another recipe")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A layer of complexity is I was intent on making this a single-page app. This required using data attributes in HTML5 to strategically store data in the DOM for my AJAX calls. Often, I would place primary keys inside HTML tags in order to get streamlined access to specific data in the database. 
 
@@ -36,7 +36,7 @@
 3.  Implementing functional tests using Selenium and integration tests for Flask, ultimately achieving a ~95% test coverage. This proved useful during the refactoring stage, but also served as a sanity check.
 4.  Lastly, being a visual person, actually taking a screenshot of my data model that I sketched on a whiteboard and saving it as my laptop’s desktop background for reference!
 
-![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/database-model.jpg "Data Model")
+![Picture](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/database-model.jpg "Data Model")
 
 ## Final Thoughts
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall, engineering Aislander where I was able to embody the reasons I transitioned to software engineering made this an invaluable experience. I had the opportunity to wear all the hats in the team – the designer, the data modeler, the tester, the UX engineer, the user, the data engineer, the project manager, etc. Being in those roles, I gained a deep understanding into the collaborative nature of this profession and saw a true value in each role. Moving forward, I am excited to deploy Aislander through AWS Lightsail to strip away that one mundane task for others, so that we can focus on what really matters – unlocking our human potential. 
