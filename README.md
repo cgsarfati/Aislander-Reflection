@@ -1,6 +1,6 @@
 ## Table of Contents
 * [Motivation](#motivation)
-* [About Aislander](#about aislander)
+* [About Aislander](#about-aislander)
 * [Favorite Moment: Debugging](#debug)
 * [Challenge: Database Traversal](#database)
 * [Final Thoughts](#conclusion)
