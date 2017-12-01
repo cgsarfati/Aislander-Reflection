@@ -1,6 +1,6 @@
 ## Table of Contents
 * [Motivation](#motivation)
-* [Introducing: Aislander](#about)
+* [About Aislander](#about aislander)
 * [Favorite Moment: Debugging](#debug)
 * [Challenge: Database Traversal](#database)
 * [Final Thoughts](#conclusion)
@@ -8,7 +8,7 @@
 ## Motivation
 During my time at Hackbright Academy, our final project was to single-handedly engineer a web application of our choice after two months of rigorous training in software engineering. Knowing I would be dedicating one whole month to this, I needed the perfect idea. Thus, I traced back to why I transitioned to software engineering in the first place – to unlock human potential. While I still believe nursing is one of the noblest professions, my pivot towards software engineering stems from my passion for automation and organizational psychology. To strip away mundane tasks we do everyday that take up so much time but so little higher-level critical thinking through my code would not only be a desirable career, but also a life-long passion. So naturally, my motivation for this app focuses on one task we all spend too much unnecessary time on: creating a grocery list. 
 
-## Introducing: Aislander
+## About Aislander
 Aislander is a single-page Flask app where users can search for recipes, and append those ingredients into grocery lists, with one click of a button. It is built on Python on the back-end and Javascript (specifically, jQuery) on the front-end with a PostgreSQL database. The grocery list is organized by aisle categories, saving users from the scavenger hunt in the store. As more recipes are added, ingredients either append to existing aisles or create a new aisle in the process.
 
 A layer of complexity is I was intent on making this a single-page app. This required using data attributes in HTML5 to strategically store data in the DOM for my AJAX calls. Often, I would place primary keys inside HTML tags in order to get streamlined access to specific data in the database. 
