@@ -1,4 +1,4 @@
-![Homepage](https://raw.githubusercontent.com/cgsarfati/Aislander-Reflection/img/homepage.png)
+![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/homepage.png)
 
 ## Table of Contents
 * [Motivation](#motivation)
@@ -21,11 +21,13 @@ A layer of complexity is I was intent on making this a single-page app. This req
 Additionally, working with the Spoonacular API to obtain recipe data often led to multi-step parsing of the returned JSON via the scripting power of Python. For example, I combined two JSONs together and deconstructed extremely layered JSONs, all the while keeping up with writing beautiful, legible code. 
 
 ## Favorite Moment: Debugging
-My favorite part of this project by far was the inevitable debugging moments. Whenever something was broken, strategically traversing through the code-base to spot the bug was a lot of fun! It challenged me (in a good way), and it was when I learned the most. You spot additional bugs on the way, you gain a deeper understanding of the round-trips involved in a web application, and most importantly – you learn how to avoid making the same mistake in the future. I took away two main lessons from this: test your code, and let the computer do as much work for you as possible. After I implemented tests, the refactoring stage was a breeze, because I instantly knew when something went wrong. Additionally, I placed print statements on the server side so that the command terminal is able to tell a story as I was clicking through the app vs. expending mental energy to guess what that story is.
+My favorite part of this project by far was the inevitable debugging moments. Whenever something was broken, strategically traversing through the code-base to spot the bug was a lot of fun! It challenged me (in a good way), and it was when I learned the most. You spot additional bugs on the way, you gain a deeper understanding of the round-trips involved in a web application, and most importantly – you learn how to avoid making the same mistake in the future.
+
+I took away two main lessons from this: test your code, and let the computer do as much work for you as possible. After I implemented tests, the refactoring stage was a breeze, because I instantly knew when something went wrong. Additionally, I placed print statements on the server side so that the command terminal is able to tell a story as I was clicking through the app vs. expending mental energy to guess what that story is.
 
 ## Challenge: Database Traversal
 
-![Homepage](https://raw.githubusercontent.com/cgsarfati/Aislander-Reflection/img/database-model.jpg "Data Model")
+![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/database-model.jpg "Data Model")
 
 
 However, the largest complexity by far was my database. By considering various permutations of how a user might interface with their data, I created my data model with a user-centric approach, where the goal was maximum customizability. With this in mind, I architected an extensive PostgreSQL database, which currently has 10 tables all interlinked through association and middle tables. 
