@@ -12,7 +12,7 @@ During my time at Hackbright Academy, our final project was to single-handedly e
 
 ## About Aislander
 
-![Homepage](https://raw.githubusercontent.com/cgsarfati/Aislander-Reflection/img/AddRecipe.gif "Add recipe")
+![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/AddRecipe.gif "Add recipe")
 
 Aislander is a single-page Flask app where users can search for recipes, and append those ingredients into grocery lists, with one click of a button. It is built on Python on the back-end and Javascript (specifically, jQuery) on the front-end with a PostgreSQL database. The grocery list is organized by aisle categories, saving users from the scavenger hunt in the store. As more recipes are added, ingredients either append to existing aisles or create a new aisle in the process.
 
