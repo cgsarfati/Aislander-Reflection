@@ -1,3 +1,5 @@
+# Aislander Reflection
+
 ![Homepage](https://github.com/cgsarfati/Aislander-Reflection/blob/master/img/homepage.png)
 
 ## Table of Contents
@@ -26,9 +28,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I took away two main lessons from this: test your code, and let the computer do as much work for you as possible. After I implemented tests, the refactoring stage was a breeze, because I instantly knew when something went wrong. Additionally, I placed print statements on the server side so that the command terminal is able to tell a story as I was clicking through the app vs. expending mental energy to guess what that story is.
 
 ## Challenge: Database Traversal
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, the largest complexity by far was my database. By considering various permutations of how a user might interface with their data, I created my data model with a user-centric approach, where the goal was maximum customizability. With this in mind, I architected an extensive PostgreSQL database, which currently has 10 tables all interlinked through association and middle tables. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Traversing through these relationships was a challenge, but four strategies proved useful:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, the largest complexity by far was my database. By considering various permutations of how a user might interface with their data, I created my data model with a user-centric approach, where the goal was maximum customizability. With this in mind, I architected an extensive PostgreSQL database, which currently has 10 tables all interlinked through association and middle tables. Traversing through these relationships was a challenge, but four strategies proved useful:
 1.  Pseudo-coding SQLAlchemy queries and practicing them in iPython prior to attaching that snippet of code into my app.
 2.  Abstracting database queries into helper functions for re-usability and encapsulation.
 3.  Implementing functional tests using Selenium and integration tests for Flask, ultimately achieving a ~95% test coverage. This proved useful during the refactoring stage, but also served as a sanity check.
